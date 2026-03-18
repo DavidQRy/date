@@ -1,13 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+import { AppRoutes } from './routes/AppRoutes.jsx';
 
-import { Login } from './login.jsx'
 function App() {
-
   return (
-
- <Login />
- 
-
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
