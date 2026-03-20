@@ -14,13 +14,13 @@ const serif = "'Instrument Serif', serif";
 
 export function LandingPage() {
   return (
-    <div className="min-h-screen" style={{ background: pageBg, fontFamily: 'Geist, sans-serif' }}>
+    <div className='min-h-screen' style={{ background: pageBg, fontFamily: 'Geist, sans-serif' }}>
       <Navbar />
 
       <main>
         <Hero brand={brand} brandHover={brandHover} serif={serif} />
 
-        <div id="funcionalidades">
+        <div id='funcionalidades'>
           <Funcionalidades />
         </div>
 
