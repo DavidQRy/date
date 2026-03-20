@@ -1,7 +1,6 @@
 export function LoginForm() {
   return (
     <div className='flex flex-col gap-4'>
-
       <div className='flex flex-col gap-1'>
         <label className='text-sm'>CORREO</label>
         <input
@@ -24,12 +23,13 @@ export function LoginForm() {
         />
       </div>
 
-      <button className='btn bg-[#c96a3f] text-white py-2 rounded-lg font-medium 
+      <button
+        className='btn bg-[#c96a3f] text-white py-2 rounded-lg font-medium 
   hover:bg-[#b85e36] transition duration-300 
-  hover:scale-[1.02] active:scale-[0.98]'>
+  hover:scale-[1.02] active:scale-[0.98]'
+      >
         Iniciar sesión
       </button>
-
     </div>
   );
 }
