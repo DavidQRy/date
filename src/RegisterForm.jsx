@@ -1,7 +1,6 @@
 export function RegisterForm() {
   return (
     <div className='flex flex-col gap-4'>
-
       <div className='flex flex-col gap-1'>
         <label className='text-sm'>NOMBRE</label>
         <input
@@ -35,12 +34,13 @@ export function RegisterForm() {
         />
       </div>
 
-      <button className='btn bg-[#c96a3f] text-white py-2 rounded-lg font-medium 
+      <button
+        className='btn bg-[#c96a3f] text-white py-2 rounded-lg font-medium 
   hover:bg-[#b85e36] transition duration-300 
-  hover:scale-[1.02] active:scale-[0.98]'>
+  hover:scale-[1.02] active:scale-[0.98]'
+      >
         Registrarse
       </button>
-
     </div>
   );
 }
