@@ -32,7 +32,11 @@ const Navbar = () => {
 
         {/* Botón de Login (Call to Action principal) */}
         <Link
+<<<<<<< HEAD
           to='/Auth'
+=======
+          to='/login'
+>>>>>>> 0f6858d3893b97247c31b9c2e966cb1745d8d4ed
           className='text-[13px] font-bold text-white px-6 py-2.5 rounded-full shadow-md shadow-orange-900/10 transition-all transform hover:scale-[1.02] active:scale-[0.98]'
           style={{ background: brandColor }}
           onMouseEnter={e => (e.currentTarget.style.background = brandHover)}
