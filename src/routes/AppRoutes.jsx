@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Auth } from '../pages/Auth.jsx';
 import { LandingPage } from '../pages/LandingPage.jsx';
-import { DateDashboard } from '../pages/Dashboard.jsx';
+import { DashboardPage } from '../pages/Dashboard.jsx';
 
 export function AppRoutes() {
   return (
@@ -9,7 +9,7 @@ export function AppRoutes() {
       <Route path='/' element={<LandingPage />} />
       <Route path='/login' element={<Auth />} />
       <Route path='/register' element={<Auth />} />
-      <Route path='/dashboard' element={<DateDashboard />} />
+      <Route path='/dashboard' element={<DashboardPage />} />
       {/* Catch-all: redirige a Landing */}
       <Route path='*' element={<Navigate to='/' replace />} />
     </Routes>
